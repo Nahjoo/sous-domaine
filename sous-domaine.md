@@ -6,15 +6,15 @@
 
 ![sousdomaine](https://user-images.githubusercontent.com/44769783/56961134-39577000-6b53-11e9-9564-ade23953b597.png)
 
-## Ensuite sur ton vps , tu va dans 
+### Ensuite sur ton vps , tu va dans 
 	
 	* cd /etc/apache2/sites-available/
 
-## tu crée un fichier :
+### tu crée un fichier :
 
 	* sudo nano nom_sous_domaine.domaine(.com).conf
 
-## dans ce fichier tu colle, oublie pas de remplacer "nom_sous_domaine.domaine(.com)" par ton sous-domaine / exemple : sous-domaine.exemple.com :
+### dans ce fichier tu colle, oublie pas de remplacer "nom_sous_domaine.domaine(.com)" par ton sous-domaine / exemple : sous-domaine.exemple.com :
 
 	
 
@@ -43,7 +43,7 @@
         RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
         </VirtualHost>
 
-## Ensuite tape ces 2 commandes :
+### Ensuite tape ces 2 commandes :
 
         sudo a2ensite nom_sous_domaine.domaine(.com)
         sudo service apache2 restart
