@@ -14,7 +14,7 @@
 
 	* sudo nano nom_sous_domaine.domaine(.com).conf
 
-## dans ce fichier tu colle, oublie pas de remplacer "nom_sous_domaine.domaine(.com)" par ton sous-domaine / exemple : sous-domaine.mathias.com :
+## dans ce fichier tu colle, oublie pas de remplacer "nom_sous_domaine.domaine(.com)" par ton sous-domaine / exemple : sous-domaine.exemple.com :
 
 	
 
