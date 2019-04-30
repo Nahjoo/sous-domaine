@@ -4,7 +4,7 @@
 
         Mettre le nom de ton sous-domaine et pointer vers WWW comme sur l'image
 
-![](sousdomaine.png)
+![](Nouveau dossier/sousdomaine.png)
 
 ## Ensuite sur ton vps , tu va dans 
 	
