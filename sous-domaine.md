@@ -1,6 +1,6 @@
 
 # Configuration du domaine et des DNS
-        Mon nom de domaine est chez OVH, je vais donc sur l'interface de mon nom de domaine, dans la zone DNS, puis j�ajoute une entr�e de type CNAME.
+        Mon nom de domaine est chez OVH, je vais donc sur l'interface de mon nom de domaine, dans la zone DNS, puis ajoute une entrée de type CNAME.
 
         Mettre le nom de ton sous-domaine et pointer vers WWW comme sur l'image
 
